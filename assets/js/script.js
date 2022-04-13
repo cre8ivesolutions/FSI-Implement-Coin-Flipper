@@ -1,5 +1,18 @@
 // TODO: Declare any global variables we need
+var headsAmount = 0
+var tailsAmount = 0
 
+let flipButton = document.getElementById("flip")
+let clearButton = document.getElementById("clear")
+
+flipButton.addEventListener(`click`, function() {
+    if (Math.random() <0.5 {
+        document.getElementById("penny").src = "assets/images/penny-tails.jpg"
+    tailsAmount++
+})
+
+}
+clearButton.addEventListener(`click`, function() 
 
 document.addEventListener('DOMContentLoaded', function () {
     // This is just a sanity check to make sure your JavaScript script is getting loaded
